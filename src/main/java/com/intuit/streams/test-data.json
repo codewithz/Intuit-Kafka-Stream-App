@@ -1,0 +1,41 @@
+{
+  "_index": "wikimedia",
+  "_type": "_doc",
+  "_id": "wikimedia.changes_1_100",
+  "_version": 1,
+  "_seq_no": 868,
+  "_primary_term": 1,
+  "found": true,
+  "_source": {
+    "$schema": "/mediawiki/recentchange/1.0.0",
+    "meta": {
+      "uri": "https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A1%A0:%EB%8D%94_%ED%94%BC%EB%82%98%ED%81%B4_(%EA%B4%91%EC%A0%80%EC%9A%B0)",
+      "request_id": "853f4dd2-3486-40ee-b836-d9627b881cf6",
+      "id": "47022702-c55f-4c46-be6d-78be8a3baed2",
+      "dt": "2022-04-05T05:12:56Z",
+      "domain": "ko.wikipedia.org",
+      "stream": "mediawiki.recentchange",
+      "topic": "eqiad.mediawiki.recentchange",
+      "partition": 0,
+      "offset": 3768396137
+    },
+    "id": 62345492,
+    "type": "log",
+    "namespace": 1,
+    "title": "토론:더 피나클 (광저우)",
+    "comment": "사용되지 않는 넘겨주기 삭제. 기여자: \"Gray eyes\", 내용: \"#넘겨주기 [[토론:더 피너클 (광저우시)]]\"",
+    "timestamp": 1649135576,
+    "user": "ChongDae",
+    "bot": false,
+    "log_id": 3194064,
+    "log_type": "delete",
+    "log_action": "delete",
+    "log_params": [],
+    "log_action_comment": "deleted &quot;[[토론:더 피나클 (광저우)]]&quot;: 사용되지 않는 넘겨주기 삭제. 기여자: \"Gray eyes\", 내용: \"#넘겨주기 [[토론:더 피너클 (광저우시)]]\"",
+    "server_url": "https://ko.wikipedia.org",
+    "server_name": "ko.wikipedia.org",
+    "server_script_path": "/w",
+    "wiki": "kowiki",
+    "parsedcomment": "사용되지 않는 넘겨주기 삭제. 기여자: &quot;Gray eyes&quot;, 내용: &quot;#넘겨주기 <a href=\"/wiki/%ED%86%A0%EB%A1%A0:%EB%8D%94_%ED%94%BC%EB%84%88%ED%81%B4_(%EA%B4%91%EC%A0%80%EC%9A%B0%EC%8B%9C)\" title=\"토론:더 피너클 (광저우시)\">토론:더 피너클 (광저우시)</a>&quot;"
+  }
+}
