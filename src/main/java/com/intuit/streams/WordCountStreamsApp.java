@@ -5,6 +5,7 @@ import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.kstream.GlobalKTable;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.KTable;
 import org.apache.kafka.streams.kstream.Produced;
@@ -54,5 +55,6 @@ public class WordCountStreamsApp {
         //Gracefully Shutdown
 
         Runtime.getRuntime().addShutdownHook(new Thread(streams::close));
+
     }
 }
